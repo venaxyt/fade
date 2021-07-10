@@ -17,7 +17,7 @@ text = """
 fade.purple(text)
 >>> Output :
 ```
-![](https://github.com/venaxyt/fade/blob/main/images/purple-pink.PNG)
+> ![](https://github.com/venaxyt/fade/blob/main/images/purple-pink.PNG)
 
 
 > #### **Download** : ``pip install fade``<br>
