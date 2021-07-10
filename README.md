@@ -13,6 +13,8 @@ text = """
          ░ ░    ░ ░  ░░ ░░   ░     ▒   ▒▒ ░░░   ░▒ ░ ░▒░ ░   ░  ░      ░
                     ░   ░  ░    ░    ░   ▒    ░    ░    ░░ ░    ░ v e n a x ░
 """
+```
+```
 # Fading a ascii art text (purple-pink)
 faded_text = fade.purplepink(text)
 print(faded_text)
