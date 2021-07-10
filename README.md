@@ -27,7 +27,7 @@ print(faded_text)
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
 ```
-# Fading a ascii art text (blue-darkblue)
+# Fading a ascii art text (darkblue-blue)
 faded_text = fade.water(text)
 print(faded_text)
 >>> Output :
