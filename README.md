@@ -27,12 +27,19 @@ print(faded_text)
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
 ```
-# Fading a ascii art text (green-blue)
+# Fading a ascii art text (blue-darkblue)
 faded_text = fade.water(text)
 print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/marin.PNG)
+```
+# Fading a ascii art text (yellow-red)
+faded_text = fade.fire(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/fire.PNG)
 
 ### **Download** : ``pip install fade``<br>
 ### **PyPi : https://pypi.org/project/fade**
