@@ -25,5 +25,5 @@ fade.blue(text)
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
 
-> #### **Download** : ``pip install fade``<br>
-> #### **PyPi : https://pypi.org/project/fade**
+> ### **Download** : ``pip install fade``<br>
+> ### **PyPi : https://pypi.org/project/fade**
