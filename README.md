@@ -13,19 +13,27 @@ text = """
          ░ ░    ░ ░  ░░ ░░   ░     ▒   ▒▒ ░░░   ░▒ ░ ░▒░ ░   ░  ░      ░
                     ░   ░  ░    ░    ░   ▒    ░    ░    ░░ ░    ░ v e n a x ░
 """
-# Fading a ascii art text (pink-purple)
-faded_text = fade.purple(text)
+# Fading a ascii art text (purple-pink)
+faded_text = fade.purplepink(text)
 print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/purple-pink.PNG)
 ```
-# Fading a ascii art text (green-blue)
-faded_text = fade.blue(text)
+# Fading a ascii art text (blue-green)
+faded_text = fade.bluegreen(text)
 print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
+```
+# Fading a ascii art text (green-blue)
+faded_text = fade.water(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/marin.PNG)
+
 > ### **Download** : ``pip install fade``<br>
 > ### **PyPi : https://pypi.org/project/fade**
 ![image](https://user-images.githubusercontent.com/81310818/125178291-c42c5e80-e1e3-11eb-9614-806b0c41a6d3.png)
