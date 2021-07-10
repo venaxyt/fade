@@ -28,3 +28,4 @@ print(faded_text)
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
 > ### **Download** : ``pip install fade``<br>
 > ### **PyPi : https://pypi.org/project/fade**
+![image](https://user-images.githubusercontent.com/81310818/125178291-c42c5e80-e1e3-11eb-9614-806b0c41a6d3.png)
