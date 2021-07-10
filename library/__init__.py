@@ -1,7 +1,7 @@
 # Module made by @venaxyt on Github
 import os
 
-def purple(text):
+def purplepink(text):
     os.system("")
     number = 40
     faded = ""
