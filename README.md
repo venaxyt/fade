@@ -1,6 +1,4 @@
 > # FADE TEXT
-> ### **Download** : ``pip install fade``<br>
-> ### **PyPi : https://pypi.org/project/fade**
 ```
 # Module made by @venaxyt on Github
 import fade
@@ -28,5 +26,5 @@ print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/blue-green.PNG)
-
-> V E N A X
+> ### **Download** : ``pip install fade``<br>
+> ### **PyPi : https://pypi.org/project/fade**
