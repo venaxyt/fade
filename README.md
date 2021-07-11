@@ -63,6 +63,13 @@ print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/brazil.PNG)
+```
+# Fading a ascii art text (random)
+faded_text = fade.random(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/random.PNG)
 
 ### **Download** : ``pip install fade``<br>
 ### **PyPi : https://pypi.org/project/fade**
