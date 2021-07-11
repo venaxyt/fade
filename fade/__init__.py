@@ -2,91 +2,94 @@
 from random import randint
 from os import system
 
-def purplepink(text):
-    system("")
-    number = 40
-    faded = ""
+def blackwhite(text):
+    system(""); faded = ""
+    red = 0; green = 0; blue = 0
     for line in text.splitlines():
-        faded += (f"\033[38;2;{number};0;220m{line}\033[0m\n")
-        if not number == 255:
-            number += 15
-            if number > 255:
-                number = 255
+        faded += (f"\033[38;2;{red};{green};{blue}m{line}\033[0m\n")
+        if not red == 255 and not green == 255 and not blue == 255:
+            red += 20; green += 20; blue += 20
+            if red > 255 and green > 255 and blue > 255:
+                red = 255; green = 255; blue = 255
+    return faded
+
+def purplepink(text):
+    system(""); faded = ""
+    red = 40
+    for line in text.splitlines():
+        faded += (f"\033[38;2;{red};0;220m{line}\033[0m\n")
+        if not red == 255:
+            red += 15
+            if red > 255:
+                red = 255
     return faded
 
 def greenblue(text):
-    system("")
-    number = 100
-    faded = ""
+    system(""); faded = ""
+    blue = 100
     for line in text.splitlines():
-        faded += (f"\033[38;2;0;255;{number}m{line}\033[0m\n")
-        if not number == 255:
-            number += 15
-            if number > 255:
-                number = 255
+        faded += (f"\033[38;2;0;255;{blue}m{line}\033[0m\n")
+        if not blue == 255:
+            blue += 15
+            if blue > 255:
+                blue = 255
     return faded
 
 def pinkred(text):
-    system("")
-    number = 255
-    faded = ""
+    system(""); faded = ""
+    blue = 255
     for line in text.splitlines():
-        faded += (f"\033[38;2;255;0;{number}m{line}\033[0m\n")
-        if not number == 0:
-            number -= 20
-            if number < 0:
-                number = 0
+        faded += (f"\033[38;2;255;0;{blue}m{line}\033[0m\n")
+        if not blue == 0:
+            blue -= 20
+            if blue < 0:
+                blue = 0
     return faded
 
 def purpleblue(text):
-    system("")
-    number = 110
-    faded = ""
+    system(""); faded = ""
+    red = 110
     for line in text.splitlines():
-        faded += (f"\033[38;2;{number};0;255m{line}\033[0m\n")
-        if not number == 0:
-            number -= 15
-            if number < 0:
-                number = 0
+        faded += (f"\033[38;2;{red};0;255m{line}\033[0m\n")
+        if not red == 0:
+            red -= 15
+            if red < 0:
+                red = 0
     return faded
 
 def water(text):
-    system("")
-    number = 10
-    faded = ""
+    system(""); faded = ""
+    green = 10
     for line in text.splitlines():
-        faded += (f"\033[38;2;0;{number};255m{line}\033[0m\n")
-        if not number == 255:
-            number += 15
-            if number > 255:
-                number = 255
+        faded += (f"\033[38;2;0;{green};255m{line}\033[0m\n")
+        if not green == 255:
+            green += 15
+            if green > 255:
+                green = 255
     return faded
 
 def fire(text):
-    system("")
-    number = 250
-    faded = ""
+    system(""); faded = ""
+    green = 250
     for line in text.splitlines():
-        faded += (f"\033[38;2;255;{number};0m{line}\033[0m\n")
-        if not number == 0:
-            number -= 20
-            if number < 0:
-                number = 0
+        faded += (f"\033[38;2;255;{green};0m{line}\033[0m\n")
+        if not green == 0:
+            green -= 20
+            if green < 0:
+                green = 0
     return faded
 
 def brazil(text):
-    system("")
-    number = 0
-    faded = ""
+    system(""); faded = ""
+    red = 0
     for line in text.splitlines():
-        faded += (f"\033[38;2;{number};255;0m{line}\033[0m\n")
-        if not number > 200:
-            number += 30
+        faded += (f"\033[38;2;{red};255;0m{line}\033[0m\n")
+        if not red > 200:
+            red += 30
     return faded
 
 def random(text):
-    system("")
-    faded = ""
+    system(""); faded = ""
     for line in text.splitlines():
         for character in line:
             faded += (f"\033[38;2;{randint(0,255)};{randint(0,255)};{randint(0,255)}m{character}\033[0m")
