@@ -74,7 +74,7 @@ def fire(text):
     for line in text.splitlines():
         faded += (f"\033[38;2;255;{green};0m{line}\033[0m\n")
         if not green == 0:
-            green -= 20
+            green -= 25
             if green < 0:
                 green = 0
     return faded
