@@ -19,6 +19,15 @@ def greenblue(text):
         number += 15
     return faded
 
+def pinkred(text):
+    os.system("")
+    number = 255
+    faded = ""
+    for line in text.splitlines():
+        faded += (f"\033[38;2;255;0;{number}m {line}\033[0m\n")
+        number -= 20
+    return faded
+
 def water(text):
     os.system("")
     number = 10
