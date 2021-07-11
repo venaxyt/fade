@@ -15,6 +15,13 @@ text = """
 """
 ```
 ```
+# Fading a ascii art text (black-white)
+faded_text = fade.blackwhite(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/black-white.PNG)
+```
 # Fading a ascii art text (purple-pink)
 faded_text = fade.purplepink(text)
 print(faded_text)
