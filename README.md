@@ -42,6 +42,13 @@ print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/fire.PNG)
+```
+# Fading a ascii art text (pink-red)
+faded_text = fade.pinkred(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/pink-red.PNG)
 
 ### **Download** : ``pip install fade``<br>
 ### **PyPi : https://pypi.org/project/fade**
