@@ -49,6 +49,20 @@ print(faded_text)
 >>> Output :
 ```
 > ![](https://github.com/venaxyt/fade/blob/main/images/pink-red.PNG)
+```
+# Fading a ascii art text (purple-blue)
+faded_text = fade.purpleblue(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/purple-blue.PNG)
+```
+# Fading a ascii art text (green-yellow)
+faded_text = fade.brazil(text)
+print(faded_text)
+>>> Output :
+```
+> ![](https://github.com/venaxyt/fade/blob/main/images/brazil.PNG)
 
 ### **Download** : ``pip install fade``<br>
 ### **PyPi : https://pypi.org/project/fade**
